@@ -1,0 +1,38 @@
+---
+title: "MScBW03 Pflanzenbiochemie"
+author: "Johannes Hausmann, Luis Kress"
+date: "`r Sys.Date()`"
+#knit: pagedown::chrome_print
+links-to-footnotes: true
+output:
+  html_document:
+    css: css/test.css
+---
+
+> Written and answered on a best effort basis. It might contain wrong answers.
+> Copying without questioning leads to your ruin!
+
+
+# Vorlesung 1
+
+# Vorlesung 2
+
+# Vorlesung 3
+
+# Vorlesung 4
+
+# Vorlesung 5
+
+# Vorlesung 6
+
+# Vorlesung 7
+
+# Vorlesung 8
+
+# Vorlesung 9
+
+# Vorlesung 10
+
+# Vorlesung 11
+
+# Vorlesung 12
