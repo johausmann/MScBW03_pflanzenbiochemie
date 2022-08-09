@@ -9,30 +9,83 @@ output:
     css: css/test.css
 ---
 
+```{r, echo=FALSE}
+library(knitr)
+```
+
 > Written and answered on a best effort basis. It might contain wrong answers.
 > Copying without questioning leads to your ruin!
 
 
-# Vorlesung 1
+# 1. Chloroplasten “Erinnerung und update“
 
-# Vorlesung 2
+### Aufbau und Aufgaben Chloroplast
 
-# Vorlesung 3
+```{r, fig.cap = "Aufbau eines Chloroplasten", echo=FALSE, out.width="75%"}
+knitr::include_graphics("media/lecture1_chloroplast.png")
 
-# Vorlesung 4
+```
 
-# Vorlesung 5
+* Semiautonomes Organell
+  + DNA
+  + Proteinbiosynthese
+  + Vermehrung durch Teilung
 
-# Vorlesung 6
+* Aufgaben
+  + Energiestoffwechsel (Photosynthese)
+  + Biosynthese u.a von Chlorophyllen, Fettsäuren, Carotinoiden
+  + Nitrit- und Sulfatreduktion
 
-# Vorlesung 7
+### DNA der Chloroplasten
+* zirkuläre ds-DNA
+* keine Histone &rarr; prokaryotische Abstammung
+* kein 5'-Methylcytosin
 
-# Vorlesung 8
+> Welche bakteriellen Eigenschaften der plastidären DNA gibt es? Nennen sie drei Merkmale
 
-# Vorlesung 9
+* Genetisches System mit ~ 120 Genen
+  + rRNA, tRNA
+  + ribosomale Proteine, Untereinheiten der RNA-Polymerase
+  + Translations- und Elongationsfaktoren
+  + Untereinheiten von Proteinen der Thylakoidmembran &rarr; Photosynthese
 
-# Vorlesung 10
+* Organistion der plastidären DNA
+  + Gegenstrangkodierung und Organisation in Operons
+  + Aufteilung &rarr; je nach Gattung/Art unterschiedliche Größen
+    + SSC &rarr;  small single copy region
+    + LSC &rarr;  large single copy region
+    + Inverted Repeats
 
-# Vorlesung 11
+> Wie ist die Genanordnung?
 
-# Vorlesung 12
+```{r, fig.cap = "Aufbau plastidärer DNA", out.width = "49%", fig.show = "hold", echo=FALSE}
+knitr::include_graphics("media/lecture1_dna_struktur.png")
+knitr::include_graphics("media/lecture1_dna_struktur_2.png")
+```
+
+### Apikoplasten
+
+* Chloroplasten ähnliche Kompartimente in parasitischen Protisten
+  + z.B. Toxoplasmose
+
+* Umgeben von 4 Hüllmembranen
+
+* Genome gleicht dem Chloroplastengenome
+
+* phagocytierte Algen, deren Chloroplasten von photosynthetischen Bakterien abstammen
+
+* Endosymbionten &rarr; Kompartimente &rarr; keine photosynthetische Aktivität mehr
+
+
+### Transkription & Translation
+
+# 2. Regulation des Chloroplasten / Regulation durch Photorezeptoren
+
+# 3. Lichtschutz bei der Photosynthese
+
+# 4. Diversität photosynthetischer Organismen/LHC
+
+# 5. Besonderheiten der Diatomeen: Stoffwechselwege/Molekularbiologie
+
+# 6. Besonderheiten der Diatomeen: Photorezeptoren/LHC
+
