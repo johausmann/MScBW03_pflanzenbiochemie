@@ -43,18 +43,24 @@ knitr::include_graphics("media/lecture1_chloroplast.png")
 
 > Welche bakteriellen Eigenschaften der plastidären DNA gibt es? Nennen sie drei Merkmale
 
-* Genetisches System mit ~ 120 Genen
+* Genetisches System mit ~ 120 Genen &rarr; Gene aus ursprünglichem Genom in Kern verlagert worden
   + rRNA, tRNA
   + ribosomale Proteine, Untereinheiten der RNA-Polymerase
   + Translations- und Elongationsfaktoren
   + Untereinheiten von Proteinen der Thylakoidmembran &rarr; Photosynthese
+  + mehrere Plastome pro Chloroplast &rarr; mehrfache Kopien der cpDNA pro Zelle (10% des Genoms)
 
 * Organistion der plastidären DNA
   + Gegenstrangkodierung und Organisation in Operons
-  + Aufteilung &rarr; je nach Gattung/Art unterschiedliche Größen
+  + Aufteilung &rarr; je nach Gattung/Art unterschiedliche Größen aber Grundschema gleich
     + SSC &rarr;  small single copy region
     + LSC &rarr;  large single copy region
-    + Inverted Repeats
+    + Inverted Repeats &rarr; unterbricht/flankiert SSC
+
+* Codiert Housekeeping & Photosynthese Gene &rarr; jedoch nicht alle
+  + siehe psb- Gene die kernkodiert sind
+  + Durchgängig, bedeutet bei Viridiplantae, Grünalgen und Heterokontae
+  + Auslagerung realtiv früh &rarr; alle Proteinkomplexe zeigen diese Aufspaltung in Kern- und Plastid
 
 > Wie ist die Genanordnung?
 
@@ -71,6 +77,8 @@ knitr::include_graphics("media/lecture1_dna_struktur_2.png")
 * Umgeben von 4 Hüllmembranen
 
 * Genome gleicht dem Chloroplastengenome
+  + rRNA, tRNA und Proteingene
+  + Weisen Inverted Repeats, SSC (kaum existent) und LSC auf
 
 * phagocytierte Algen, deren Chloroplasten von photosynthetischen Bakterien abstammen
 
@@ -78,6 +86,84 @@ knitr::include_graphics("media/lecture1_dna_struktur_2.png")
 
 
 ### Transkription & Translation
+
+* DNA ist prokaryotisch
+  + Prokaryotische Polymerasen, Promotoren und Ribosomen
+  + Operonstruktur
+
+* Weist jedoch Introns und RNA-editing auf
+
+* Transkription &rarr; zwei Polymerasen
+
+  1. PEP (plastid encoded RNA polymerase)
+      + plastidenkodiert &rarr; Transkription plastidenspezifischer Proteine
+  2. NEP (nuclear encoded RNA polymerse)
+      + homolog zur Bakteriophagen-Polymerase
+      + Transkription von "Housekeeping" Genen
+
+* Bakterielle Promotoren für PEP Polymerasen
+  + -35 &rarr; TATA-Box &rarr; -10 Elemente
+  
+* Editing Stellen &rarr; sehr variabel bzw. noch unbekannt
+  + Beispiel Black pine/Schwarzkiefer ORF 62b
+  + Übersetzen der prä-mRNA würde Threonin, Serin und Glutamin an bestimmten Positionen enthalten sein
+  + Editierung verändert Codons &rarr; z.B. Einführung eines Start- und Stopcodons
+  + Kontrollstelle für Pflanze &rarr; aber aus Sequenz nicht ableitbar
+  
+* Regulation der Transkription
+  + vermittelt durch Transkriptionsfaktoren &rarr; nucleär codiert
+  + Aktivierung durch Rezeptoren (Licht, Hormone)
+  
+* Regulation der Translation
+  + Umwelteinflüsse
+  + Stoffwechselprodukte
+  + Hormone &rarr; Wachstum der Zelle
+
+* Beispiel: Translation plastidär codierter Proteine
+  + Shine Dalgarno Sequenz erwartet, aber nicht überall ausgeprägt
+  &rarr; Ausgeprägte 5'-UTR mit sekundär RNA-Strukturen
+  + Interaktion mit regulatorischen Proteinen (Kernkodiert)
+  
+  + Aktivierung durch reduzierten Komplex &rarr; Dephosphorylierung, Reduktion und Translation
+    + Wechsel zwischen Reduktion und Oxidation
+
+### Trangene Pflanzen
+
+* Nukleäre Transformation &rarr; Einbringen bzw. Veränderung am Genom im Kern
+  + zusätzliche Gene
+  + Knock-out durch zufälliges Einbringen von Resistenzkasetten &rarr; Variabilität/ Biblitoheken von Mutanten
+  + Homozygotie durch Kreuzung &rarr; Polyploidie
+  
+  &rarr; Homologe Rekombination selten in Nukleus, daher entweder CrispR-Cas oder Transformation
+  
+* Chloroplastentransformation
+  + Homologe Rekombination &rarr; Hauptreperaturmechanismus
+  + Vorteile:
+      + Direkter Ersatz von von Plastidgenen
+      + Plastiden werden __maternal__ vererbt &rarr; kein Pollenflug
+  + Nachteile:
+      + Beeinträchtigung durch Gegenstrangkodierung & Operonstruktur
+      + Ersetzen von plastidären Genen &rarr; Einschänkung durch geringe Anzahl
+      + Langwierig, da Selektion von Homoplastischen Zellen mit Resistenzgenen
+  + Voraussetzung:
+      + Genom sequenziert &rarr; flankierende Bereiche müssen mit kloniert werden
+      + Kallusstücken &rarr; ganze Pflanze
+      
+* Resistenz gegen Herbizide, Frost, Schädlinge
+* Produktion von Pflanzenstoffen, Proteinen
+
+* Risiken der Freisetzung
+  + Nukleäre Transformation
+    + Verwilderung
+    + Hybride &rarr; Ausbreitung des Fremdgenes über Pollen
+    + __Vertikaler__ Gentransfer durch Kreuzung mit freilebenden Vorfahren
+    + __Horizontaler__ Gentransfer durch Viren oder Bakterien &rarr; Genfähren z.B. Resistenzgen
+    
+  + Plastidäre Transformation
+    + Viren/Bakterien als Genfähren
+    + Verwilderung möglich
+    + Ausbreitung der Gene über Samen
+  
 
 # 2. Regulation des Chloroplasten / Regulation durch Photorezeptoren
 
