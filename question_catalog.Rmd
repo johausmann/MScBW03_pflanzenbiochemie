@@ -120,14 +120,17 @@ knitr::include_graphics("media/lecture1_dna_struktur_2.png")
   + Hormone &rarr; Wachstum der Zelle
 
 * Beispiel: Translation plastidär codierter Proteine
-  + Shine Dalgarno Sequenz erwartet, aber nicht überall ausgeprägt
+  + Shine Dalgarno Sequenz erwartet, aber nicht überall ausgeprägt  
   &rarr; Ausgeprägte 5'-UTR mit sekundär RNA-Strukturen
   + Interaktion mit regulatorischen Proteinen (Kernkodiert)
-  
   + Aktivierung durch reduzierten Komplex &rarr; Dephosphorylierung, Reduktion und Translation
     + Wechsel zwischen Reduktion und Oxidation
+    
+```{r, echo=FALSE, fig.cap="Translationskontrolle"}
+knitr::include_graphics("media/lecture1_translations_kontrolle.png")
+```
 
-### Trangene Pflanzen
+### Transgene Pflanzen
 
 * Nukleäre Transformation &rarr; Einbringen bzw. Veränderung am Genom im Kern
   + zusätzliche Gene
@@ -148,7 +151,9 @@ knitr::include_graphics("media/lecture1_dna_struktur_2.png")
   + Voraussetzung:
       + Genom sequenziert &rarr; flankierende Bereiche müssen mit kloniert werden
       + Kallusstücken &rarr; ganze Pflanze
-      
+
+> Was für ein Vorteil hat die Transformation von Plastom im Vergleich zur nukleären Transformation?
+
 * Resistenz gegen Herbizide, Frost, Schädlinge
 * Produktion von Pflanzenstoffen, Proteinen
 
@@ -163,10 +168,244 @@ knitr::include_graphics("media/lecture1_dna_struktur_2.png")
     + Viren/Bakterien als Genfähren
     + Verwilderung möglich
     + Ausbreitung der Gene über Samen
+
+### Lokalisation der Proteine
+
+* Proteine der Thylakoidmembran sowohl im Kern als auch im Plastiden codiert
+  &rarr; Transport in Chloroplasten
+
+* Assoziierung mit Membran, Lumen oder Stroma &rarr;
+
+* Passagen um Zieldestination zu erreichen
+  + __Envelope__ &rarr; Passierung äußere Membran des Chloroplasten
+
+```{r, echo=FALSE, fig.cap="Transport nukleär codierter Proteine"}
+knitr::include_graphics("media/lecture1_protein_import.png")
+```
+
+* Import nukleär codierter Proteine
+  + Nukleus &rarr; Transkription
+  + Cytoplasma &rarr; Translation an 80s Ribosomen
+  + Precursor Polypeptide mit Signalsequenz &rarr; Transitpeptid (N-Terminus)
+      + begleitet von _Chaperonen_
+  + Transport über Tic/Toc-Komplex (energieabhängig)
+      + Toc = äußere Membran
+      + Tic = innere Membran
+  + Thylakoidtransferdomäne &rarr; T. membran oder lumenale Proteine
   
+```{r, echo=FALSE, fig.cap="Signalpeptide für Proteinimport"}
+knitr::include_graphics("media/lecture1_protein_transport.png")
+```
+
+### Assemblierung / Transport von Proteinen des Chloroplasten
+
+* plastidär
+  + Stromale Proteine translatiert und adhesiert z.B. an Membran
+  + Membranproteine &rarr; cotranslationale Insertion
+  + Lumenales Protein &rarr; Thylakoidtransfer
+
+* nukleär
+  + Stromale Prtoeine &rarr; kein weiterer Transport
+  + Membranproteine &rarr; Thylakoidmembraninsertion
+  + Lumenales Protein &rarr; Thylakoidmembrantransfer
+
+* Transport an/in Membran
+  + 2 Mechanismen
+      1. cpSRP (chloroplast signal recognition particle) &rarr; Energieabhängige Insertion mittels Proteinkomplexes
+      2. "spontan" &rarr; Primärstruktur ermöglicht selbstständige Insertion (thermodynamisch)
+
+* Transport über die Membran
+  + Sec-Transporter (bakterieller Transportmechanismus)
+      + ungefaltet durch Membran geschleust &rarr; ATP Verbrauch
+  + Tat
+      + Transport von bereits gefalteten Proteinen
+      + pH Gradient muss bestehen bleiben
+      
+      
+> Beschreiben Sie den Weg für die Fertigstellung der Untereinheit des LHCII, angefangen
+mit dem Ort der Translation. 
+> Wie gelangt das Protein vom Kern in die Thylakoidmembran? (Kennzeichnen sie die energieabhängigen Schritte und beschreiben Sie ebenso die Veränderung der Polypeptidkette in diesen Schritten
+
+* Einbau der Cofaktoren
+  + Einbau während Proteinfaltung &rarr; Chlorophylle, Carotinoide
+      + Delegation zum richtigen Ort zum richtigen Zeitpunkt
+  + Vor der Faltung z.B. Cytochrome heften lumenseitig an bevor gefaltet wird
+  + Fe, S-Zentren werden stromaseitig eingebaut &rarr; vor Transport 
+  
+* GroEL-GroES Chaperone
+
+### Assemblierung & Reperatur des PSII
+
+* Assemblierung PSII 
+  + Viele Untereinheiten benötigen "Reaktionskeime"
+  + Reaktionszentrum besteht aus D1 & D2 und ihren Cofraktoren
+  + D2 & D1 werden mit Cytochromen zusammengesetzt &rarr; Reaktionszentrum
+    + weitere Schritte nach Baukastenprinzip
+  + LHC &rarr; Lichtantennen (Minor LHC und LHC2 trimere)
+
+* PSII Reperatur
+  + D1 Protein ist empfindlich &rarr; Cofaktoren des Elektronentransportes gebunden
+  + Auslastung &rarr; Chlorophylltriplets (single Sauerstoff) &rarr; Oxidation
+  + Turnover rate ~ 30min
+  + Protease verdaut/degradiert defektes D1 &rarr; Einbau eines neuen D1-Proteins
+  + In Grana höherer Pflanzen wird D1 nicht ersetzt
+
+
 
 # 2. Regulation des Chloroplasten / Regulation durch Photorezeptoren
 
+### Lichtregulation
+* Warum wird Lichtregulation benötigt? Reduktionsequivalente/ATP der Photosynthese
+  + Kohlenstoffreaktionen der Photosynthese (Calvin-Zyklus)
+  + Nitratreduktion
+  + Sulfatreduktion
+  + Pigmentsynthese
+  + Genexpression im Chloroplasten
+  + Proteintranslation
+
+* Stoffwechselwege benötigen Regulation & müssen bei Dunkelheit ausgestellt werden
+
+* Signale im Chloroplasten
+  * pH Gradient (Lumen (Ansäuerung) > Stroma)
+    + starke Gegenströme von Mg2+ um dies auszugleichen
+  * Reduktionsequivalente &rarr; NADPH & Fd~red~
+  * ATP-Produktion
+
+* Thioredoxine (2 zwei Cysteine für Oxidation &rarr; Cystin)
+  + klein und ubiquitär vertreten
+  + Tertiärstruktur und Redoxpotential bestimmen Substratspezifität
+  + Oxidation = inaktive, Reduktion = aktiv
+  + Reduziertes Ferredoxin (erstes Protein hinter PSI) &rarr; Reduktion von Thioredoxin (FTR)
+  + Dieses kann __erneut__ ein entsprechendes Enzym reduzieren
+
+* Regulation mittels Ionen und pH-Wert
+  + pH Abhängigkeiten der Enzyme
+  + Beispiel: Fruktosebisphosphatase (Stroma)
+    + Dunkel/wenig Licht &rarr; saurer pH im Stroma/wenig Mg2+, daher inaktiv
+    + Licht &rarr; alkalischer pH mit viel Mg2+, daher aktiv
+
+* Aktivierung RubisCo
+  + Aktivase entfernt CA1P Zucker, welches RubisCo voher gehemmt hat
+  + Carbamylierung des aktiven Zentrum (COO-) &rarr; Komplexierung mit Mg
+  
+* De-/Phosphorylierung
+  + Phosphatasen unf Kinasen &rarr; PEP-Carboxylasen
+  + ATP abhängig 
+
+* Regulation von Stoffwechselwegen
+  + Oxidativer und Reduktiver Pentosephosphatweg &rarr; gegeneinander reguliert, da sonst nur ATP verbraucht würde
+  + meist __mehrere Faktoren__ an Regulation eines Prozesses beteiligt
+
+### Interaktion des Chloroplasten mit anderen Kompartimenten
+
+* Kohlenhydratstoffwechsel 
+  + Stärkesynthese im Chloroplasten / Saccharosesynthese im Cytosol &rarr; Phosphat
+  + 3-Phosphoglycerat = hauptsächlicher Metabolit
+      + Regenration Ribulose-1,5-bisphosphat und Photorespiration &rarr; 1/8 steht zur Verfügung
+      + mehr darf nicht und weniger kann nicht exportiert werden (P~i~ würde fehlen)
+  
+  + Triose-P/P~i~ Translokator (Antiporter)
+    + Import von P~i~ für Triose-P / Kein Import wenn Saccharosesynthese nicht möglich
+  
+  + Synthesewege gegeinander reguliert
+      + viel Triose-P & Saccharoseverbrauch &rarr; starke Saccharosesynthese
+  + Verhältnis 3-Phosphoglycerat/P~i~ entscheidend ob Stärkesynthese stattfindet
+      + Stärke ist unphosphoryliert
+      + Stärke als Pool um Phosphatkonzentration aufrecht zu erhalten
+  
+* Nitratassimilation
+  + Nitratreduktion in Cytosol &rarr; Nitrit
+      + Nitrit im Chloroplasten weiterverabeitet &rarr; __starkes Oxidationsmittel__
+  + Umwandlung zu Ammonium (auch toxisch) und anschließend zu AS
+      + Reduktion nur dann wenn AS synthetisiert oder in Vakuole gespeichert
+  + Abschalten im Dunkeln, da auf Produkte der Photosynthese angewiesen
+  + Bereits das Gen für Reduktase stark reguliert (Glucose, Licht, Nitrat, Glutamin-Konzentation)
+      + Nachregulation im Licht durch Phosphorylierung und Inhibitoren
+  + Nitrat- und Nitritreduktion müssen abgestimmt sein
+  + Nitrat- und CO~2~-Assimilation müssen abgestimmmt sein
+      + Kohlenstoffgerüst der AS 
+  + Nitrat und SO~4~-Assimilation müssen abgestimmt sein
+      + AS mit Schwefelgruppen
+
+### Genregulation („Crosstalk“ ) zwischen Kern und Chloroplasten
+
+* Anterograde Signale
+  + Regulation/Signal von __Kern &rarr; Plastid__
+  + Auslöser z.B. Hormon- Photorezeptoren, circadiane Uhr
+      + Phytochrome, Cryptochrome
+
+* Retrograde Signale
+  + Signal vom __Plastid &rarr; Kern__
+  + Unterscheidung in biogene und operationale Signale
+      + biogen = Information über Entwicklungszustand
+      + operational = Photosynthese und Metabolismus
+  + Beispiele
+      + Chlorophyll Zwischenstufen &rarr; Expression von Genen
+      + Plastidäre Genexpression
+      + Redox Signale
+
+* Beispiel biogenes Signal
+  + Synthese/Assemblierung des PSII
+      + Koordination der Genexpression in zwei Organellen
+      + PSII Untereinheiten (plastidär), LHC (kernkodiert)
+      + Chlorophyll Pignmentsynthese
+  + ohne D1 Synthese &rarr; GUN1 (Signalpeptid) hemmt LHCII Synthese im Kern über PTM Weg
+  
+      
+
+### Regulation durch Photorezeptoren
+
+* Photorezeptoren decken gesamtes Lichtspektrum ab
+  + zelluläre Änderung wie Transkription, Membranpotentialänderung
+  + Antworten auf Umwelt und Entwicklung
+
+* URV8 &rarr; UV-Licht Rezeptor
+  + Domäne 8-fach vorhanden
+  + kein Chromophor &rarr; Photorezeption durch Tryptophan
+  + photomorphogenetische Reaktionen
+  + Dimer im Dunkeln &rarr; Absorption führt zur Monomerisierung
+      + COP1 &rarr; Genregulation
+  
+* Phytochrome &rarr; Rotlichtrezeptor
+  + Tetrapyrol als chromophore Gruppe
+  + Kernimportdomäne
+  + Absorption von hellrotem Licht &rarr; __aktive Form Pfr__
+    + bindet Transkriptionsfaktoren &rarr; __Genregulation__
+    + Regulation von Phangs z.B LHCII
+  + Absorption von dunkelrotem Licht &rarr; __inaktive Form Pr__
+  + Zentrale Rolle bei Entwicklungsprozessen
+      1. Klasse 1 (instabil in far-red): phyA
+      2. Klasse 2 (stabil, reversibel: phy{B..E}
+
+* LOV (Light/Oxygen/Voltage) Sensoren &rarr; Blaulichtrezeptoren
+  + Falvin-Chromophore
+  + Phototropine (phot1/phot2)
+      + Membranproteine
+      + LOV- und Effektordomäne
+  + physiologische Reaktion z.B. Änderung Membranpotenzial durch Einfluss auf Transporter
+
+
+* Cryptochrome &rarr; Blaulichtrezeptoren
+  + Cryptochrom/Photolyase Familie (löslich)
+      + PHS (Photolyase Homologue Region) und CCT am C-Terminus
+      + Photolyase = Reperaturenzyme für DNA nach UV-Schäden
+      + Genexpression indem nach Lichtperzeption mit COP1 interagiert wird  (Cry1/Cry2)  
+      &rarr; verhindert Abbau von TF  
+  + Binden FAD im PHS
+  + zusätzlich noch ein anderes Pigment &rarr; Antennenchromophor
+  + MTHF als Antennenchromophor 
+    + FADH° radikal welches im Dunkeln zu FAD~ox~ oxidiert
+    
+    
+  + Cryptochrome
+      + FAD~ox~ &rarr; Grundzustand
+      + Blaulicht &rarr; Signalzustand (Aufnahme Elektron)
+      + Protonierung zu FADH° &rarr; Konformationsänderung und damit ein Signal
+  + Photolyasen
+      + FADH° semi-radiakal im Grundzustand
+      + FADH^-^ zur Reperatur der DNA
+      
+    
 # 3. Lichtschutz bei der Photosynthese
 
 # 4. Diversität photosynthetischer Organismen/LHC
