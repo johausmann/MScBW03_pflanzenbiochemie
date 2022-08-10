@@ -36,7 +36,7 @@ knitr::include_graphics("media/lecture1_chloroplast.png")
   + Biosynthese u.a von Chlorophyllen, Fettsäuren, Carotinoiden
   + Nitrit- und Sulfatreduktion
 
-### DNA der Chloroplasten
+### DNA der Chloroplasten (cpDNA)
 * zirkuläre ds-DNA
 * keine Histone &rarr; prokaryotische Abstammung
 * kein 5'-Methylcytosin
@@ -132,7 +132,7 @@ knitr::include_graphics("media/lecture1_translations_kontrolle.png")
 
 ### Transgene Pflanzen
 
-* Nukleäre Transformation &rarr; Einbringen bzw. Veränderung am Genom im Kern
+* Nukleäre Transformation &rarr; Einbringen bzw. Veränderung am Genom im Kern (z. B. durch Floral Dip)
   + zusätzliche Gene
   + Knock-out durch zufälliges Einbringen von Resistenzkasetten &rarr; Variabilität/ Biblitoheken von Mutanten
   + Homozygotie durch Kreuzung &rarr; Polyploidie
@@ -187,8 +187,8 @@ knitr::include_graphics("media/lecture1_protein_import.png")
   + Nukleus &rarr; Transkription
   + Cytoplasma &rarr; Translation an 80s Ribosomen
   + Precursor Polypeptide mit Signalsequenz &rarr; Transitpeptid (N-Terminus)
-      + begleitet von _Chaperonen_
-  + Transport über Tic/Toc-Komplex (energieabhängig)
+      + begleitet von _Chaperonen_ an Envelope
+  + Transport über Tic/Toc-Komplex (energieabhängig) durch Envelope
       + Toc = äußere Membran
       + Tic = innere Membran
   + Thylakoidtransferdomäne &rarr; T. membran oder lumenale Proteine
@@ -201,8 +201,8 @@ knitr::include_graphics("media/lecture1_protein_transport.png")
 
 * plastidär
   + Stromale Proteine translatiert und adhesiert z.B. an Membran
-  + Membranproteine &rarr; cotranslationale Insertion
-  + Lumenales Protein &rarr; Thylakoidtransfer
+  + Membranproteine &rarr; cotranslationale Insertion (Direkter Einbau in Membran)
+  + Lumenales Protein &rarr; Thylakoidtransfer (zusätzliche Erkennungssequenz &rarr; Domäne benötigt)
 
 * nukleär
   + Stromale Prtoeine &rarr; kein weiterer Transport
@@ -266,7 +266,7 @@ mit dem Ort der Translation.
 * Stoffwechselwege benötigen Regulation & müssen bei Dunkelheit ausgestellt werden
 
 * Signale im Chloroplasten
-  * pH Gradient (Lumen (Ansäuerung) > Stroma)
+  * pH Gradient (Lumen (Ansäuerung) > Stroma, bei Licht)
     + starke Gegenströme von Mg2+ um dies auszugleichen
   * Reduktionsequivalente &rarr; NADPH & Fd~red~
   * ATP-Produktion
@@ -285,8 +285,8 @@ mit dem Ort der Translation.
     + Licht &rarr; alkalischer pH mit viel Mg2+, daher aktiv
 
 * Aktivierung RubisCo
-  + Aktivase entfernt CA1P Zucker, welches RubisCo voher gehemmt hat
-  + Carbamylierung des aktiven Zentrum (COO-) &rarr; Komplexierung mit Mg
+  + Bei Anwesenheit von ATP (Licht): Aktivase entfernt CA1P Zucker, welches RubisCo voher gehemmt hat
+  + Carbamylierung des aktiven Zentrum (COO-) &rarr; Komplexierung mit Mg &rarr; aktives RubisCO
   
 * De-/Phosphorylierung
   + Phosphatasen unf Kinasen &rarr; PEP-Carboxylasen
@@ -351,7 +351,9 @@ mit dem Ort der Translation.
       + Chlorophyll Pignmentsynthese
   + ohne D1 Synthese &rarr; GUN1 (Signalpeptid) hemmt LHCII Synthese im Kern über PTM Weg
   
-      
+* PHANGs: Photosynthesis associated nuclear genes (z. B. LHC)
+
+* PGE: Plastid gene expression (z. B. Photosystem Untereinheiten)
 
 ### Regulation durch Photorezeptoren
 
