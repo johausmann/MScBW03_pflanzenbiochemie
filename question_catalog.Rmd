@@ -410,9 +410,143 @@ mit dem Ort der Translation.
     
 # 3. Lichtschutz bei der Photosynthese
 
+* Anpassung an unterschiedliche Lichtsituationen
+  + Unterschiede in __Lichtintensität__, __Lichtqualität__
+
+* Sensorik für Anpassung
+  + Photorezeptoren (Lichtmenge und qualität)  
+  &rarr; Dienen hauptsächlich zur Regulation der Transkription und Translation  
+
+  + Photosynthese
+    + Photorezeptoren wären zu langsam um Anpassung vorzunehmen
+    + Verschiedene Faktoren?/Merkmale zur Regulation
+      + pH Gradient der an Thylakoidmembran aufgebaut wird
+      + Redoxzustand des Plastochinon (hinter PSII)
+      + Konzentration NADH (Redoxäquivalente)
+      + Redoxstress &rarr; singulärer Sauerstoff, wenn Photosynthese ausgelastet
+      + Metabolite
+
+* Anpassungsmechanismen
+  + PQ &rarr; state transition von PSI & PSII
+  + $\Delta$pH &rarr; NPQ
+  
+## Regulation der Lichtsammlung und Lichtschutz
+
+  * State Transitions &rarr; Ausbalancierung von Lichtsammlung PSI & PSII
+    * Verschiebung Lichtqualität verändert Balance (Lichtzusammensetzung)
+  * Hohe Lichtenergie
+    + zu viel Energie, die die Photosynthese nicht verarbeiten kann
+    + Nichtphotochemischer Energieabbau &rarr; NPC
+
+* State transitions
+  * Kinase/Phosphatase-abhängige LHCII-Wanderung
+  * Herstellen einer Balance durch "verschieben" der Lichtantennen an das jeweils
+    weniger angeregte PS
+  
+  * PSII-Überanregung (State 2)
+    + Plastochinon wird stark reduziert &rarr; Zug am PSI zu gering bzw. Elektronen können nicht abfließen
+    + Stn7-Kinase phosphoryliert LHCII und __wandert an PSI__
+    &rarr; PSI mehr Energie durch relativ größere Lichtantenne
+  
+  * PSI-Überanregung (State 1)
+    + TAP38 dephosphoryliert LHCII &rarr; oxidierter Plastochinon-Pool
+    + Umgekehrter Prozess zu PSII Überanregung
+  
+  * __Plastochinon-Pool bzw. dessen Redoxzustand ist der Sensor__ 
+    + Reduzierter Pool &rarr; STN7-Kinase
+    + Oxidierter Pool &rarr; TAP38
+  
+  * Theoretisch: Verteilung der Anregungsenergie durch Antennenwanderung
+
+* Nachweise der State Transitions
+  * Welche Antennenkomplexe wandern? Wie viele? Wie schnell?
+  
+  * Western Blot Analyse
+      + Nachweis der Phosphorylierung von LHCII (WT, Knockout Stn7, komplementiert Stn7)
+  + Messung der Fluoreszenzemission als Maß für die Energieverteilung
+      + Charakteristissche Peaks der PS und LHCs &rarr; Unterschiedung der Photosysteme möglich
+      + State2 &rarr; Emission realtiv an PSI höher als in State 1
+      + Energie an PSI gestiegen, PSII gefallen oder beides  
+      __&rarr; Umverteilung der Anregungsenergie__
+  * Blue-native PAGE &rarr; Auftrennung PSI-LHCI -LHCII Komplexe
+  
+* Strukturbestimmung des PSI-LHCI-LHCII Komplexes
+  + Isolation aus Thylakoidmembran und Single Particle Analysis
+  + State 2 Erwartung
+      + PSII mit und ohne LHCII, sowie freies LHCII
+      + PSI-LHCI mit und ohne LHCII  
+  __&rarr; LHCII als Trimer an PSI angelagert__
+  
+* PSI-LHCI-LHCII Komplex
+
+  * LHCII kommt bei PSI an, aber was verliert PSII?
+  * LHCII aus 3 Proteinen aufgebaut (Lhcb{1,2,3})
+    + LHC trimere bestehen aus unterschiedlichen Kombinationen der Untereinheiten
+    + PSI-LHCII weißt Kombination aus Lhcb1 und 2 auf &rarr; LHCII Trimer-S (strongly)
+        + __entgegen der Erwartung, da Trimer-S immer an PSII gebunden__
+        + __Mobiler LHCII des PSII kommt nicht bei PSI an__
+        
+* Angepasstes Modell
+  * Plastochinon-Pool &rarr; Stn7 Kinase (Phosphorylierung)
+  * PSI und PSII besitzen __eigenen Pool__ an LHCII
+      + Freies LHCII in Gelelektrophorese
+  * Statetransition 1 &rarr; 2
+      + Phosphorylierung des LHCII im Pool von PSII
+      + Loosely bound werden von PSII entfernt
+      + Bindung an PSI nach Phosphorylierung (aus Pool des PSI)
+  * Statetransition 2 &rarr; 1
+      + Dephosphorylierung &rarr;vize versa
+  
+  * Freies LHCII muss gequencht werden
+      + Würde sonst Floureszieren und die Antennengröße nicht geändert (Reabsorption benachbarte Pigmente)
+  * Proteine, Kinase & Phosphatase an Substrat?
+    
+    
+## Lichtschutz
+* nicht auf molekulare Ebene zu steuern
+* effektive Photosynthese und photo-oxidativer Schäden (Balance)  
+__&rarr; überschüssige Anregungsenergie als Wärme abgeben (NPQ)__
+  
+* Angeregte Chlorophylle &rarr; Grundzustand
+    + Fluoreszenz
+    + Photochemie
+    + Wärme (NPQ)
+    + Triplet Zustnd &rarr; Singulet-Sauerstoff!
+
+* Carotinoide - $\beta$-Carotin
+  * Lichtsammler & Schutzfunktion
+  * Lokalisiert in Reaktionszentren und inneren Antennen der Photosysteme
+  * direkte Entsorgung von Triplett-Chlorophyll oder Singluet-Sauerstoff
+  1. Energie direkt von Chlorophyll übernehmen (schnell) &rarr; Wärmeabgabe
+  2. Energie von Singulet-Sauerstoff übernehmen &rarr; Wärmeabgabe
+
+* NPQ
+  * Maß für Wärme-Dissipation
+  * PAM Fluoreszenz-Messung &rarr; Quenching Analyse
+      + Blatt (dunkel adaptiert) 
+      + belichtet mit starkem Blitz sehr kurz &rarr; alle PSII fluoreszieren maximal
+      + Anregendes Licht &rarr; Photosynthese &rarr; steady state
+      + Erneuter Blitz erreicht nicht mehr Maximum &rarr; Quenching 
+  
+  * Anteile Energie die in Photochemie oder Wärme-Dissipation
+
+  * Korrelation mit anderen Daten (__Xanthophyllzyklus__):
+      + __Zeaxanthin steigt mit NPQ__
+      + __Violaxanthin fällt mit NPQ__
+  * Zeaxanthin, Violaxanthin in LHCII und inneren Antennen des PSII sowie PSI
+  * Violaxanthin &rarr; De-epoxidase &rarr; Zeaxanthin
+      + Vorgang in LHCII ungeklärt (Flip-Flop, Raus und wieder rein)
+  
+  
 # 4. Diversität photosynthetischer Organismen/LHC
 
 # 5. Besonderheiten der Diatomeen: Stoffwechselwege/Molekularbiologie
 
 # 6. Besonderheiten der Diatomeen: Photorezeptoren/LHC
+
+
+# 7. ToDos
+
+* Liste/Tabelle der Peptide und ihrer Lokalisation/Transportwege
+
 
