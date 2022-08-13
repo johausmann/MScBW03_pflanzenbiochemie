@@ -271,12 +271,23 @@ mit dem Ort der Translation.
   * Reduktionsequivalente &rarr; NADPH & Fd~red~
   * ATP-Produktion
 
+  
+```{r, echo=FALSE, fig.cap="Regulationsparameter imm Chloroplasten"}
+knitr::include_graphics("media/lecture2_regulation_parameter.png")
+```
+
+
 * Thioredoxine (2 zwei Cysteine für Oxidation &rarr; Cystin)
   + klein und ubiquitär vertreten
   + Tertiärstruktur und Redoxpotential bestimmen Substratspezifität
   + Oxidation = inaktive, Reduktion = aktiv
   + Reduziertes Ferredoxin (erstes Protein hinter PSI) &rarr; Reduktion von Thioredoxin (FTR)
   + Dieses kann __erneut__ ein entsprechendes Enzym reduzieren
+
+```{r, echo=FALSE, fig.cap="Redoxregulation durch Thioredoxine"}
+knitr::include_graphics("media/lecture2_thioredoxine.png")
+```
+
 
 * Regulation mittels Ionen und pH-Wert
   + pH Abhängigkeiten der Enzyme
@@ -312,7 +323,11 @@ mit dem Ort der Translation.
   + Verhältnis 3-Phosphoglycerat/P~i~ entscheidend ob Stärkesynthese stattfindet
       + Stärke ist unphosphoryliert
       + Stärke als Pool um Phosphatkonzentration aufrecht zu erhalten
-  
+
+```{r, echo=FALSE, fig.cap="Regulation Kohlenhydratstoffwechsel"}
+knitr::include_graphics("media/lecture2_kohlenhydrat.png")
+```
+
 * Nitratassimilation
   + Nitratreduktion in Cytosol &rarr; Nitrit
       + Nitrit im Chloroplasten weiterverabeitet &rarr; __starkes Oxidationsmittel__
@@ -326,6 +341,11 @@ mit dem Ort der Translation.
       + Kohlenstoffgerüst der AS 
   + Nitrat und SO~4~-Assimilation müssen abgestimmt sein
       + AS mit Schwefelgruppen
+
+```{r, echo=FALSE, fig.cap="Regulation Nitratstoffwechsel"}
+knitr::include_graphics("media/lecture2_nitrat.png")
+```
+
 
 ### Genregulation („Crosstalk“ ) zwischen Kern und Chloroplasten
 
@@ -350,10 +370,16 @@ mit dem Ort der Translation.
       + PSII Untereinheiten (plastidär), LHC (kernkodiert)
       + Chlorophyll Pignmentsynthese
   + ohne D1 Synthese &rarr; GUN1 (Signalpeptid) hemmt LHCII Synthese im Kern über PTM Weg
-  
+  + GUN1, Heme und Mg-Protoporphyrin IX sind Signale in den Kern
+
 * PHANGs: Photosynthesis associated nuclear genes (z. B. LHC)
 
 * PGE: Plastid gene expression (z. B. Photosystem Untereinheiten)
+
+```{r, echo=FALSE, fig.cap="Regulation LHC und PS Assemblierung"}
+knitr::include_graphics("media/lecture2_retrograde_signale_ps.png")
+```
+
 
 ### Regulation durch Photorezeptoren
 
@@ -369,7 +395,7 @@ mit dem Ort der Translation.
       + COP1 &rarr; Genregulation
   
 * Phytochrome &rarr; Rotlichtrezeptor
-  + Tetrapyrol als chromophore Gruppe
+  + Tetrapyrol als chromophore Gruppe (Phytochromobilin)
   + Kernimportdomäne
   + Absorption von hellrotem Licht &rarr; __aktive Form Pfr__
     + bindet Transkriptionsfaktoren &rarr; __Genregulation__
@@ -380,7 +406,7 @@ mit dem Ort der Translation.
       2. Klasse 2 (stabil, reversibel: phy{B..E}
 
 * LOV (Light/Oxygen/Voltage) Sensoren &rarr; Blaulichtrezeptoren
-  + Falvin-Chromophore
+  + Falvin-Chromophore (FAD,FMN) &rarr; Aromaten
   + Phototropine (phot1/phot2)
       + Membranproteine
       + LOV- und Effektordomäne
@@ -445,8 +471,8 @@ mit dem Ort der Translation.
   
   * PSII-Überanregung (State 2)
     + Plastochinon wird stark reduziert &rarr; Zug am PSI zu gering bzw. Elektronen können nicht abfließen
-    + Stn7-Kinase phosphoryliert LHCII und __wandert an PSI__
-    &rarr; PSI mehr Energie durch relativ größere Lichtantenne
+    + Stn7-Kinase phosphoryliert LHCII und __"wandert" an PSI__
+    &rarr; PSI mehr Anregunsenergie durch relativ größere Lichtantenne
   
   * PSI-Überanregung (State 1)
     + TAP38 dephosphoryliert LHCII &rarr; oxidierter Plastochinon-Pool
@@ -458,13 +484,17 @@ mit dem Ort der Translation.
   
   * Theoretisch: Verteilung der Anregungsenergie durch Antennenwanderung
 
+```{r, echo=FALSE, fig.cap="Vereinfachtes theoretisches Model der State Transitions"}
+knitr::include_graphics("media/lecture3_state_transition_model.png")
+```
+
 * Nachweise der State Transitions
   * Welche Antennenkomplexe wandern? Wie viele? Wie schnell?
   
   * Western Blot Analyse
       + Nachweis der Phosphorylierung von LHCII (WT, Knockout Stn7, komplementiert Stn7)
   + Messung der Fluoreszenzemission als Maß für die Energieverteilung
-      + Charakteristissche Peaks der PS und LHCs &rarr; Unterschiedung der Photosysteme möglich
+      + Charakteristische Peaks der PS mit ihren LHCs &rarr; Unterschiedung der Photosysteme möglich
       + State2 &rarr; Emission realtiv an PSI höher als in State 1
       + Energie an PSI gestiegen, PSII gefallen oder beides  
       __&rarr; Umverteilung der Anregungsenergie__
@@ -485,23 +515,31 @@ mit dem Ort der Translation.
     + PSI-LHCII weißt Kombination aus Lhcb1 und 2 auf &rarr; LHCII Trimer-S (strongly)
         + __entgegen der Erwartung, da Trimer-S immer an PSII gebunden__
         + __Mobiler LHCII des PSII kommt nicht bei PSI an__
-        
+
+```{r, echo=FALSE, fig.cap="Der PSI-LHCI-LHCII Superkomplex"}
+knitr::include_graphics("media/lecture3_ps1_lhc2_komplex.png")
+```
+     
 * Angepasstes Modell
   * Plastochinon-Pool &rarr; Stn7 Kinase (Phosphorylierung)
   * PSI und PSII besitzen __eigenen Pool__ an LHCII
       + Freies LHCII in Gelelektrophorese
-  * Statetransition 1 &rarr; 2
-      + Phosphorylierung des LHCII im Pool von PSII
+  * State transition 1 &rarr; 2
+      + Phosphorylierung des LHCII an PSII
       + Loosely bound werden von PSII entfernt
       + Bindung an PSI nach Phosphorylierung (aus Pool des PSI)
-  * Statetransition 2 &rarr; 1
-      + Dephosphorylierung &rarr;vize versa
+  * State transition 2 &rarr; 1
+      + Dephosphorylierung &rarr; vize versa
   
   * Freies LHCII muss gequencht werden
-      + Würde sonst Floureszieren und die Antennengröße nicht geändert (Reabsorption benachbarte Pigmente)
+      + Würde sonst Floureszieren und die Antennengröße nicht geändert (Reabsorption benachbarter Pigmente)
   * Proteine, Kinase & Phosphatase an Substrat?
-    
-    
+
+
+```{r, echo=FALSE, fig.cap="Erweitertes state transition Modell"}
+knitr::include_graphics("media/lecture3_updated_state_transition_model.png")
+```
+
 ## Lichtschutz
 * nicht auf molekulare Ebene zu steuern
 * effektive Photosynthese und photo-oxidativer Schäden (Balance)  
@@ -520,25 +558,75 @@ __&rarr; überschüssige Anregungsenergie als Wärme abgeben (NPQ)__
   1. Energie direkt von Chlorophyll übernehmen (schnell) &rarr; Wärmeabgabe
   2. Energie von Singulet-Sauerstoff übernehmen &rarr; Wärmeabgabe
 
-* NPQ
-  * Maß für Wärme-Dissipation
-  * PAM Fluoreszenz-Messung &rarr; Quenching Analyse
-      + Blatt (dunkel adaptiert) 
-      + belichtet mit starkem Blitz sehr kurz &rarr; alle PSII fluoreszieren maximal
-      + Anregendes Licht &rarr; Photosynthese &rarr; steady state
-      + Erneuter Blitz erreicht nicht mehr Maximum &rarr; Quenching 
-  
-  * Anteile Energie die in Photochemie oder Wärme-Dissipation
+```{r, echo=FALSE, fig.cap="Entsorung überschüssiger Energie durch $\\beta$ Carotin"}
+knitr::include_graphics("media/lecture3_carotinoide.png")
+```
 
-  * Korrelation mit anderen Daten (__Xanthophyllzyklus__):
-      + __Zeaxanthin steigt mit NPQ__
-      + __Violaxanthin fällt mit NPQ__
-  * Zeaxanthin, Violaxanthin in LHCII und inneren Antennen des PSII sowie PSI
-  * Violaxanthin &rarr; De-epoxidase &rarr; Zeaxanthin
-      + Vorgang in LHCII ungeklärt (Flip-Flop, Raus und wieder rein)
+### NPQ
+* Maß für Wärme-Dissipation
+* PAM Fluoreszenz-Messung &rarr; Quenching Analyse
+    + Blatt (dunkel adaptiert) 
+    + belichtet mit starkem Blitz sehr kurz &rarr; alle PSII fluoreszieren maximal
+    + Anregendes Licht &rarr; Photosynthese &rarr; steady state
+    + Erneuter Blitz erreicht nicht mehr Maximum &rarr; Quenching 
   
-  
-# 4. Diversität photosynthetischer Organismen/LHC
+* Anteile Energie die in Photochemie oder Wärme-Dissipation
+
+* Korrelation mit anderen Daten (__Xanthophyllzyklus__):
+    + __Zeaxanthin steigt mit NPQ__
+    + __Violaxanthin fällt mit NPQ__
+* Zeaxanthin, Violaxanthin in LHCII und inneren Antennen des PSII sowie LHCI
+* Violaxanthin &rarr; De-epoxidase &rarr; Zeaxanthin
+    + Vorgang in LHCII ungeklärt (Flip-Flop, Raus und wieder rein)
+
+* Gear-shift Modell
+    + Zeaxanthin in Lösungsmittel &rarr; kann Energie von Chlorophyll a übernehmen
+    + Violaxanthin dient als Lichtsammler &rarr; überträgt Energie auf Chlorophyll a
+    + Energielevel im Protein stimmen nicht mit denen im Lösungsmittel überein  
+    &rarr; Theorie unbestätigt
+
+* Carotenoid Kation Radikal in Thylakoidmembran unter NPQ
+    + Zeaxanthin als Radikal in isolierten LHCII nicht nachweisbar
+    + __Radikal in minoren LHCs nachweisbar__
+        + CP29 in L2-Seite (Leutein-Bindestelle)
+        + Xanthophylle &rarr; De-epoxidiert unter NPQ
+
+* _In-vivo_ Experimente mit Mutanten
+  + __Knockout von CP24, Cp29 führt zu NPQ Reduktion__
+  + __CP24-CP29-LHCII Superkomplex (Minore + Trimer)__
+      + lhcb3 Knockout führt nicht zu NPQ-Reduktion, aber Teil des Superkomplexes
+      + __Auftreten korreliert mit NPQ &rarr; Benötigt__
+
+* __Aggregation der LHCs (lateral in Membran) &rarr; selbständig gequencht__
+  + 2 Zustände &rarr; "Gequencht" und Fluoreszierend
+  + Kristalle (koordinierte Aggregation) &rarr; stärker gequencht
+  + __Neoxanthin "twisted" &rarr; schiebt Lutein in eine andere Konfiguration__
+      + __Abstand zum Chlorophyll verringert &rarr; übernimmt Energie__
+      + normale Zustand &rarr; Energietransfer  
+  __&rarr; Molekularer Schalter (Konformationsänderung) mit Lutein als Quencher__
+
+* PsbS (Dimer)
+  * Protonierbar auf lumenaler Seite 
+  * Konformationsänderung im Dimer abhängig von pH  
+    &rarr; könnte lumenalen pH registrieren
+  * Modell 1
+      + psbS hilft beim Stacking der Thylakoidmembranen
+      + LHC Assoziation an PSII  
+      &rarr; unprotoniert
+      + Bei protonierter Form &rarr; __Dissoziation und damit NPQ__
+  * Modell 2 (saurer Zustand)
+      + LHCII-psbS Komplex &rarr; NPQ
+      + Zeaxanthin &rarr; stärkeres NPQ
+
+* NPQ beruht nicht auf einer einzigen molekularen Ursache  
+  &rarr; Lichtintensit und pH lösen verschiedene Reaktionen aus  
+  + Geschieht auf Level der minoren Antennen zusammen im LHCII
+  + psbS in Zusammenspiel mit LHCII
+  + Einfluss auf Zeaxanthin
+  &rarr; Zusammenspiel notwendig aber unverstanden
+
+
+# 4.Diversität photosynthetischer Organismen/LHC
 
 # 5. Besonderheiten der Diatomeen: Stoffwechselwege/Molekularbiologie
 
