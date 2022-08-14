@@ -248,7 +248,7 @@ mit dem Ort der Translation.
   + Auslastung &rarr; Chlorophylltriplets (single Sauerstoff) &rarr; Oxidation
   + Turnover rate ~ 30min
   + Protease verdaut/degradiert defektes D1 &rarr; Einbau eines neuen D1-Proteins
-  + In Grana höherer Pflanzen wird D1 nicht ersetzt
+  + In Grana höherer Pflanzen wird D1 nicht so ersetzt
 
 
 
