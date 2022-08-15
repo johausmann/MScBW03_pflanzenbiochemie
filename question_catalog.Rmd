@@ -248,7 +248,7 @@ mit dem Ort der Translation.
   + Auslastung &rarr; Chlorophylltriplets (single Sauerstoff) &rarr; Oxidation
   + Turnover rate ~ 30min
   + Protease verdaut/degradiert defektes D1 &rarr; Einbau eines neuen D1-Proteins
-  + In Grana höherer Pflanzen wird D1 nicht ersetzt
+  + In Grana höherer Pflanzen wird D1 nicht so ersetzt
 
 
 
@@ -453,7 +453,7 @@ knitr::include_graphics("media/lecture2_retrograde_signale_ps.png")
       + Redoxzustand des Plastochinon (hinter PSII)
       + Konzentration NADH (Redoxäquivalente)
       + Redoxstress &rarr; singulärer Sauerstoff, wenn Photosynthese ausgelastet
-      + Metabolite
+      + Metabolite (ATP, NADPH, ...)
 
 * Anpassungsmechanismen
   + PQ &rarr; state transition von PSI & PSII
@@ -506,7 +506,7 @@ knitr::include_graphics("media/lecture3_state_transition_model.png")
       + State2 &rarr; Emission realtiv an PSI höher als in State 1
       + Energie an PSI gestiegen, PSII gefallen oder beides  
       __&rarr; Umverteilung der Anregungsenergie__
-  * Blue-native PAGE &rarr; Auftrennung PSI-LHCI -LHCII Komplexe
+  * Blue-native PAGE &rarr; Auftrennung PSI-LHCI -LHCII Komplexe &rarr; PSI bildet mit LHCI und LHCII einen Komplex
   
 * Strukturbestimmung des PSI-LHCI-LHCII Komplexes
   + Isolation aus Thylakoidmembran und Single Particle Analysis
@@ -520,7 +520,7 @@ knitr::include_graphics("media/lecture3_state_transition_model.png")
   * LHCII kommt bei PSI an, aber was verliert PSII?
   * LHCII aus 3 Proteinen aufgebaut (Lhcb{1,2,3})
     + LHC trimere bestehen aus unterschiedlichen Kombinationen der Untereinheiten
-    + PSI-LHCII weißt Kombination aus Lhcb1 und 2 auf &rarr; LHCII Trimer-S (strongly)
+    + PSI-LHCII weißt Kombination aus Lhcb1 und 2 auf &rarr; LHCII Trimer-S (strongly an PSII gebunden)
         + __entgegen der Erwartung, da Trimer-S immer an PSII gebunden__
         + __Mobiler LHCII des PSII kommt nicht bei PSI an__
 
@@ -558,13 +558,17 @@ __&rarr; überschüssige Anregungsenergie als Wärme abgeben (NPQ)__
     + Photochemie
     + Wärme (NPQ)
     + Triplet Zustnd &rarr; Singulet-Sauerstoff!
+    
+```{r, echo=FALSE, fig.cap="Mögliche Wege der Energie"}
+knitr::include_graphics("media/lecture3_energy_paths.png")
+```
 
 * Carotinoide - $\beta$-Carotin
   * Lichtsammler & Schutzfunktion
   * Lokalisiert in Reaktionszentren und inneren Antennen der Photosysteme
   * direkte Entsorgung von Triplett-Chlorophyll oder Singluet-Sauerstoff
-  1. Energie direkt von Chlorophyll übernehmen (schnell) &rarr; Wärmeabgabe
-  2. Energie von Singulet-Sauerstoff übernehmen &rarr; Wärmeabgabe
+    1. Energie direkt von Chlorophyll übernehmen (schnell) &rarr; Wärmeabgabe
+    2. Energie von Singulet-Sauerstoff übernehmen &rarr; Wärmeabgabe
 
 ```{r, echo=FALSE, fig.cap="Entsorung überschüssiger Energie durch $\\beta$ Carotin"}
 knitr::include_graphics("media/lecture3_carotinoide.png")
@@ -615,6 +619,7 @@ knitr::include_graphics("media/lecture3_carotinoide.png")
 
 * PsbS (Dimer)
   * Protonierbar auf lumenaler Seite 
+  * gehört zu selber Proteinfamilie wie LHC
   * Konformationsänderung im Dimer abhängig von pH  
     __&rarr; könnte lumenalen pH registrieren__
   * Modell 1
@@ -627,8 +632,8 @@ knitr::include_graphics("media/lecture3_carotinoide.png")
       + __Zeaxanthin &rarr; stärkeres NPQ__
 
 * NPQ beruht nicht auf einer einzigen molekularen Ursache  
-  &rarr; Lichtintensit und pH lösen verschiedene Reaktionen aus  
-  + Geschieht auf Level der minoren Antennen zusammen mit LHCII
+  &rarr; Lichtintensität und pH lösen verschiedene Reaktionen aus  
+  + Geschieht auf Level der minoren Antennen zusammen im LHCII
   + psbS in Zusammenspiel mit LHCII
   + Einfluss auf Zeaxanthin
   &rarr; Zusammenspiel notwendig aber unverstanden
