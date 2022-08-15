@@ -307,6 +307,9 @@ knitr::include_graphics("media/lecture2_thioredoxine.png")
   + Oxidativer und Reduktiver Pentosephosphatweg &rarr; gegeneinander reguliert, da sonst nur ATP verbraucht würde
   + meist __mehrere Faktoren__ an Regulation eines Prozesses beteiligt
 
+> Welche lichtreduzierende Proteine gibt es?
+
+
 ### Interaktion des Chloroplasten mit anderen Kompartimenten
 
 * Kohlenhydratstoffwechsel 
@@ -456,6 +459,8 @@ knitr::include_graphics("media/lecture2_retrograde_signale_ps.png")
   + PQ &rarr; state transition von PSI & PSII
   + $\Delta$pH &rarr; NPQ
   
+> Wie entstehen Anregungsunterschiede zwischen dem Photosystem II und I?
+  
 ## Regulation der Lichtsammlung und Lichtschutz
 
   * State Transitions &rarr; Ausbalancierung von Lichtsammlung PSI & PSII
@@ -487,6 +492,9 @@ knitr::include_graphics("media/lecture2_retrograde_signale_ps.png")
 ```{r, echo=FALSE, fig.cap="Vereinfachtes theoretisches Model der State Transitions"}
 knitr::include_graphics("media/lecture3_state_transition_model.png")
 ```
+
+> Wie wird relatives Anregungslicht in Bezug auf Anregungsunterschiede reguliert ?
+
 
 * Nachweise der State Transitions
   * Welche Antennenkomplexe wandern? Wie viele? Wie schnell?
@@ -586,7 +594,7 @@ knitr::include_graphics("media/lecture3_carotinoide.png")
     &rarr; Theorie unbestätigt
 
 * Carotenoid Kation Radikal in Thylakoidmembran unter NPQ
-    + Zeaxanthin als Radikal in isolierten LHCII nicht nachweisbar
+    + __Zeaxanthin als Radikal in isolierten LHCII nicht nachweisbar__
     + __Radikal in minoren LHCs nachweisbar__
         + CP29 in L2-Seite (Leutein-Bindestelle)
         + Xanthophylle &rarr; De-epoxidiert unter NPQ
@@ -598,7 +606,7 @@ knitr::include_graphics("media/lecture3_carotinoide.png")
       + __Auftreten korreliert mit NPQ &rarr; Benötigt__
 
 * __Aggregation der LHCs (lateral in Membran) &rarr; selbständig gequencht__
-  + 2 Zustände &rarr; "Gequencht" und Fluoreszierend
+  + 2 Zustände &rarr; "gequencht" und fluoreszierend
   + Kristalle (koordinierte Aggregation) &rarr; stärker gequencht
   + __Neoxanthin "twisted" &rarr; schiebt Lutein in eine andere Konfiguration__
       + __Abstand zum Chlorophyll verringert &rarr; übernimmt Energie__
@@ -608,25 +616,75 @@ knitr::include_graphics("media/lecture3_carotinoide.png")
 * PsbS (Dimer)
   * Protonierbar auf lumenaler Seite 
   * Konformationsänderung im Dimer abhängig von pH  
-    &rarr; könnte lumenalen pH registrieren
+    __&rarr; könnte lumenalen pH registrieren__
   * Modell 1
       + psbS hilft beim Stacking der Thylakoidmembranen
       + LHC Assoziation an PSII  
       &rarr; unprotoniert
       + Bei protonierter Form &rarr; __Dissoziation und damit NPQ__
   * Modell 2 (saurer Zustand)
-      + LHCII-psbS Komplex &rarr; NPQ
-      + Zeaxanthin &rarr; stärkeres NPQ
+      + __LHCII-psbS Komplex &rarr; NPQ__
+      + __Zeaxanthin &rarr; stärkeres NPQ__
 
 * NPQ beruht nicht auf einer einzigen molekularen Ursache  
   &rarr; Lichtintensit und pH lösen verschiedene Reaktionen aus  
-  + Geschieht auf Level der minoren Antennen zusammen im LHCII
+  + Geschieht auf Level der minoren Antennen zusammen mit LHCII
   + psbS in Zusammenspiel mit LHCII
   + Einfluss auf Zeaxanthin
   &rarr; Zusammenspiel notwendig aber unverstanden
 
 
 # 4.Diversität photosynthetischer Organismen/LHC
+
+
+* Thylakoid = Einheit von zwei Membranen die ein Lumen umschließen
+
+* Thylakoidmembransystem lässt sich in
+  + Grana (enge Stapel von Thylakoiden)
+  + Stroma-Thylakoide (einzelne Thylakoide, also 2 Mebranen) einteilen
+
+* Diversität in der Thylakoidstruktur
+  + Einzelthylakoide – Cyanophceae, Rhodophyceae (Rotalgen)
+      + Phycobilisome aufgelagert
+  + Grana/Stromathylakoide - Spermatophyta (streng genommen nur in höhren Pflanzen, aber auch Grünalgen)
+  + Thylakoide in 3er Bändern - Heterokontophyta (Braunalgen)
+      + Gürtellamelle am Rand
+
+## Ursachen/Endosymbiosen
+  
++ Chloroplasten in primärer Endosymbiose entstanden
+    + plastidenloser Eukaryot + Cyanobakterium = photosynthetisch aktiver Eukaryot
+    + Cyanobakterien (Photosynthese, Membrankomposition ähnlich, Komponenten des linearen Elektronentransports)
+    + Glaucophyta, Rhodophyta und Viridiplantae  
+
+```{r, echo=FALSE, fig.align='center',fig.cap="Primäre Endosymbiose der Chloroplasten"}
+knitr::include_graphics("media/lecture4_primaere_endosymbiose.png")
+```
+
++ Entwicklung komplexer Plastiden (3 oder 4 Hüllmembranen)
+    + sekundäre Endosymbiose einer eukaryotischen Alge
+    + plastidenloser + plastidenhaltiger Eukaryot = Eukaryot mit komplexen Plastiden
+    + Bei Rotalgen (Oomyceten) sowie Viridiplantae/Grünalgen mehrfach geschehen
+
+```{r, echo=FALSE, fig.align='center',fig.cap="Sekundäre Endosymbiose der komplexen Chloroplasten"}
+knitr::include_graphics("media/lecture4_sekundaere_endosymbiose.png")
+```
+
+* Chloroplasten mit 3-4 Hüllmebranen
+  + 1 Membran = Phagosomale Membrane &rarr; angeschlossen raues ER des Kerns
+  + Host-EM Lumen &rarr; Plastid hat ER
+  + 2 Membran = Symbionten Plasmamembran (bei einigen Arten verloren)
+  + PPC (periplastidische Kompartement) &rarr; Symbionten Cytosol mit Nukleomorph (falls vorhanden)
+  + 3-4 Membran = Envelope Mebranen des Symbionten Chloroplasten
+
+
+* Nukleomorph = Kernähnliches Konstrukt (Relikt aus sekundärer Endosymbiose)
+  + aktive Genexpression &rarr; eukaryotische Ribosomen in PPC
+
+* Dinophyta &rarr; Funktion zur tertiärer Endosymbiose
+  + Verlust des sekundären Endosymbionten und Aufnahme z.B. Diatomeen
+  + Endosymbionte in Korallen
+
 
 # 5. Besonderheiten der Diatomeen: Stoffwechselwege/Molekularbiologie
 
