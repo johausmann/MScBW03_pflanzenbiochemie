@@ -651,7 +651,7 @@ knitr::include_graphics("media/lecture3_carotinoide.png")
 * Diversität in der Thylakoidstruktur
   + Einzelthylakoide – Cyanophceae, Rhodophyceae (Rotalgen)
       + Phycobilisome aufgelagert
-  + Grana/Stromathylakoide - Spermatophyta (streng genommen nur in höhren Pflanzen, aber auch Grünalgen)
+  + Grana/Stromathylakoide - Spermatophyta (streng genommen nur in höheren Pflanzen, aber hier auch Grünalgen)
   + Thylakoide in 3er Bändern - Heterokontophyta (Braunalgen)
       + Gürtellamelle am Rand
 
@@ -679,7 +679,7 @@ knitr::include_graphics("media/lecture4_sekundaere_endosymbiose.png")
   + 1 Membran = Phagosomale Membrane &rarr; angeschlossen raues ER des Kerns
   + Host-EM Lumen &rarr; Plastid hat ER
   + 2 Membran = Symbionten Plasmamembran (bei einigen Arten verloren)
-  + PPC (periplastidische Kompartement) &rarr; Symbionten Cytosol mit Nukleomorph (falls vorhanden)
+  + PPC (periplastidisches Kompartement) &rarr; Symbionten Cytosol mit Nukleomorph (falls vorhanden)
   + 3-4 Membran = Envelope Mebranen des Symbionten Chloroplasten
 
 
@@ -687,8 +687,142 @@ knitr::include_graphics("media/lecture4_sekundaere_endosymbiose.png")
   + aktive Genexpression &rarr; eukaryotische Ribosomen in PPC
 
 * Dinophyta &rarr; Funktion zur tertiärer Endosymbiose
-  + Verlust des sekundären Endosymbionten und Aufnahme z.B. Diatomeen
+  + Verlust des sekundären Endosymbionten und Aufnahme z.B. Diatomeen  
+      __&rarr; sowohl Peridinin als auch Fucoxanthin als akzessorische Pigmente__
   + Endosymbionte in Korallen
+
+* Kleptoplastidie
+  + kurzzeitige Aufnahme des Endosymbionten &rarr; kein Verdau
+  + "Symbiont" geht Funktion nach (produziert Sauerstoff und CO~2~)  
+  &rarr; keine stabile Integration
+  
+* Voraussetzung für stabile Endosymbiose
+  + Wirt darf Endosymbiont nicht verdauen
+  + Gentransfer von Endosymbiont zum Wirt
+  + Regulation der Kompartimente
+  + Transport wird etabliert (Glukose für Zelle und Proteine für Chloroplast)
+
+## Nachweismethoden (Pikoplancton Screening)
+
+* DAPI Färbung des Nukleus
+  + interkalierender DNA-Farbstoff
+  + komplexer Plastid &rarr; Färbung Nukleomoprh aus sekundärer Endosymbiose
+  
+* Cytosol &rarr; eukaryotische Ribosomen
+  + _In situ_ Hybridisierung mit gelabelter 18s-rRNA
+
+* Plastid &rarr; Auto-Fluoreszent der Phycobiline
+  + Rotalgen ähnliche
+  + Bei Cyanobakterien würde es keine Lokalisation geben &rarr; über gesamte Zelle Signal
+
+## Verteilung der Pigmente/ Chlorophylle
+
+* Alle Arten besitzen Chlorophyll a
+
+
+| Chlorophyll | Linie/Art |
+|:-----------:|:---------:|
+|     a       | "Alle"    |
+|     b       | Viridiplantae |
+|     c       | Heterokontophyta |
+
+
+
+* Rhodophyta und Glaucophya besitzen ausschließlich Chl a
+    + Ähnlichkeit der Chloroplasten zu Cyanobakterien
+
+* Grüne-Linie (Grünalgen + höhere Pflanzen) besitzen Chl a,b
+
+* Braunalgen (aus Rotalgen abgeleitet) besitzen Chl a,c
+
+
+* Stammbaum in 3 Gruppen aufteilbar &rarr; Lichtsammeleigenschaften
+  + nur Chl a:
+      + Phycobilin als Hauptsammelantenne
+      + Phycobilisom auf PSII
+  + Chl a + b:
+      + Membranintrinsische Antennen
+      + LHCI & LHCII (ähnliche Motife auch in Chl c Linie)  
+  &rarr; zusätzliche Carotinoide in Chl c Linie  
+
+## Variabilität der Lichtsammelantennen
+
+* Grundsätzlich Aufbau der Thylakoidmembran mit PS, Cyt b~6~f und ATP-Synthase gleich
+  + Cyanobakterien + Eukaryoten
+  
+* Variabilität in den Lichtsammelkomplexen
+
+* Cyanophyta und Rhodophyta
+  + Phycobilisom als Antenne auf PSI
+  
+* Viridiplantae (Grünalgen und höhere Pflanzen)
+  + LHC-Antennen, welche mit PSI und PSII assoziiert sind
+  + LHC Komplex mit 12 Carotenoiden (Lutein, Neoxanthin, Violaxanthin) und Chl a,b
+
+* Braunalgen, Diatomeen, ..., Dinophyten
+  + LHC-Antennen mit Chl a,c
+  + Hauptsächliches Carotenoid ist Fucoxanthin
+  + Dinophyta nutzt Peridinin und Cryptophyta nutzt Alloxanthin (Ausnahmen)
+
+## Unterschiede in Anordnung der PS
+
+
+* Cyanobakterien
+  + PSI = Trimer
+  + PSII = Dimer
+  + extrinsischer Antennenkomplex
+
+* Höhere Pflanzen
+  + PSI = Monomer
+  + PSII = Dimer
+  + unterschiedliche LHCs umgeben diese
+
+* Heterokontophyten
+  + PSI = Monomer + 17-24 FCP-Monomere
+  + PSII = Dimer + 4 tetramere FCPs + 6 Monomere
+  + freie FCPs (wie freie LHCs in höheren Pflanzen)
+  
+&rarr; Unterschide in Thylakoid-Morphologie spiegelt sich in Anordung der PS un der Antennen wieder
+
+## Transport in komplexe Plastiden
+
+* zusätzliche Membranen erschweren Transport in Chloroplasten
+
+* verschidene Transportwege
+  + Ribosomen im Cytosol   
+      &rarr; PPC  
+      &rarr; Plastid   
+
+  + Ribosomen im PPC  
+      &rarr; Plastid
+
+__&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewährleisten__
+
+* Translokationspeptid (Chloroplastentransitpeptid) wird zweigeteilt
+  + Signalpeptid um über Hüllmembran zu gelangen (S)
+  + Transitpeptid um über Envelope zu gelangen (T)
+  + Tyhlakoidtransferdomäne (Lumen oder T-Membranprotein) (S')
+
+
+* Grenze zwischen Signalpeptid und eigentlichem Protein nicht ganz klar
+
+* Nachweis mittels GFP in Protein
+  + Fluoreszenz an Bestimmungsort z.B PPC oder Chloroplast
+
+```
+----------------------------------
+|   S  |   T   |   S'   |    M   |
+----------------------------------
+
+```
+
+* Äußere Membran mit ER des Wirts verbunden
+  + Co-translationale Insertion/Transportation in Phagosomale Membran
+  + Verlässt "CER" (Chloroplast ER) durch ERAD Mechanismus in das PPC
+      + Umwandlung eines Degradationsmechanismus zur Transportmechanismus
+  + Transitpeptid bestimmt weitere Lokalisation
+    + Unterschied in einer AS bestimmt ob das Protein in PPC verbleibt oder über den Envelope transportiert wird
+
 
 
 # 5. Besonderheiten der Diatomeen: Stoffwechselwege/Molekularbiologie
