@@ -823,8 +823,6 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
   + Transitpeptid bestimmt weitere Lokalisation
     + Unterschied in einer AS bestimmt ob das Protein in PPC verbleibt oder über den Envelope transportiert wird
 
-
-
 # 5. Besonderheiten der Diatomeen: Stoffwechselwege/Molekularbiologie
 
 # 6. Besonderheiten der Diatomeen: Photorezeptoren/LHC
@@ -834,4 +832,15 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
 
 * Liste/Tabelle der Peptide und ihrer Lokalisation/Transportwege
 
+
+|Protein | Lokalisation  | Ursprung | Transport über Thylakoidmembran |
+|:------:|:-------------:|:--------:|:-------------------------------:|
+|CP47 | Thylakoidmembran | Plastid | Cotranslationale Insertion  |
+|Cyt f| Lumen | Plastid | Sec-Transporter
+|PSI-C | Stroma | Plastid | - |
+|PSI-D | Stroma | Kern | - |
+|LHCII | Thylakoidmembran | Kern | cpSRP |
+|PSII-O | Lumen | Kern | Sec-Transporter |
+|Rieske | Lumen | Kern | Tat |
+|ATPsynthase-II | Thylakoidmembran | Kern | spontan |
 
