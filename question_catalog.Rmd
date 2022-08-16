@@ -830,47 +830,70 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
 ## Überblick Diatomeen
 
 * Diatomeen sind Modellorganismen für sekundäre Endosymbionten
-
+  * molekularbiologische Tools zur Untersuchung fortgeschritten
+  
   * für 35% der Primärproduktion verantwortlich
   * besitzen keinen Nucleomorph
   * zwei Unterarten: Centrales und Pennales
   * Thylakoid 3er Stapel
   * Signalpeptide größtenteils bekannt
+  
   * Transitpeptide wenig consensus mit höheren Pflanzen &rarr; Schwierigkeiten für Vorhersageprogramme
+  
+  * zwei Ansätze zur Untersuchung
+      + Bioinformatisch (welche Gene, Signalpeptidde)  
+      &rarr; Ableitung Stoffwechselwege und Kompartiment  
+      + biochemisch/molekularbiologisch  
+      &rarr; Nachweis des Protiens welches für bestimmte Funktion kodiert/Kompartiment
+  
   
 ## Stoffwechselwege
 
-* Diatomeen betreiben CO2 fixierung
-  *  besitzen gene für Carbonahydrase &rarr; CO2 (Gas) zu HCO3- (wasserlösl.) und umgekehrt
-  * Enzyme für C4 Stoffwechsel vorhanden &rarr; vorfixierung Kohlenstoff
+* Diatomeen betreiben CO~2~ Fixierung
+  *  besitzen gene für Carboanhydrase &rarr; CO~2~ (Gas) zu HCO~3~- (wasserlösl.) und umgekehrt
+  * Enzyme für C4 Stoffwechsel vorhanden &rarr; Vorfixierung des Kohlenstoff
   * für Pflanzen an trockenen Orten &rarr; Vermeidung von Wasserverlust
-  * bei Diatomeen kommt es aber nie zu HCO3- Knappheit
+  * bei Diatomeen kommt es aber nie zu HCO~3~- Knappheit
   
 * Regulation Calvin Zyklus
   * nicht mittels Thioredoxin reguliert wie bei höheren Pflanzen
-  * Calvin- und oxidativer Pentosephosphatweg unterschiedlich lokalisiert &rarr; gegeneinander Regulierung möglich, da ox. Pentosephosphatweg sich im Cytosol befindet
+  * Calvin- und oxidativer Pentosephosphatweg unterschiedlich lokalisiert &rarr; gegeneinander Regulierung möglich, da ox. Pentosephosphatweg sich im Cytosol befindet und deshalb Thioredoxin nicht das erste Enzym hemmen muss
   
 * Speicherassimilate
-  * Diatomeen verwenden Chrysolaminarin statt Stärke wie höhere Pflanzen
-  * Chrysolaminin wasserlöslich &rarr; in Vakuole gespeichert
+  * Diatomeen verwenden Chrysolaminarin (Polysaccharid) statt Stärke wie höhere Pflanzen
+  * Chrysolaminin wasserlöslich &rarr; in Vakuole gespeichert anstatt im Chloroplasten
   * An Tonoplast (Membran der Vakuole) synthetisiert
+      + Export Chloroplast &rarr; Import Chloroplast 
 
 * Glykolyse
   * Teilweise in Plastiden (bei höheren Pflanzen kommt dies nur in den Wurzeln vor)
-  * Problem: stört den Calvin Zyklus &rarr; Regulation benötigt
+  * Problem: stört den Calvin Zyklus da 2PGA ein Intermediat des Calvinzyklus ist   
+  &rarr; Regulation benötigt
   
 ## Molecular Tools für Diatomeen
 
-### Biolistisch
+### Biolistisch (Gen-Gun)
 * Starke Selektion, da nur wenige Zellen überleben
-* Vektoren können leicht brechen
+  + darunter viele Falsch-Positive (Selektionsmarker integriert und GOI zerstört)
+* Vektoren können leicht brechen &rarr; Scherkräfte
+* stabiler Einbau in das Genom
   
 ### Elektroporation
-* Variable Ergebnisse &rarr; funktioniert nicht bei allen
+* Variable Ergebnisse &rarr; funktioniert nicht bei allen Spezies
+* Anzahl Transformanten höher
+* stabiler Einbau in das Genom
   
 ### Episomen (Plasmid mittels *E. coli* einbringen)
+
 * Plasmid enthält zwei ori &rarr; *E. coli* und Diatomeen
+  + Replikation bei Zellteilung
 * Plasmid benötigt 2 Selektionsmarker &rarr; *E. coli* und Diatomeen
+
+* *E. coli* benötigt zusätzliches Plasmid um Plasmabrücken bei Kojugation auszubilden?
+  + ToDo: Nochmal nachhören
+
+* Selektionsdruck &rarr; transiente Transformation bzw. zeitlich begrenztes wirken
+  + mit Wegfall des Selektionsdrucks &rarr; Verlust des Episomen und der eingebrachten Gene
 
 * Ziele:
   * einbringen zusätzlicher Gene
@@ -879,17 +902,21 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
   
 ## Knock-Out via TALEN (transkription activator-like effetor nucleases)
 
-* Protein, welches an gewünschter Stelle schneidet
-* Induziiert Doppelstrangbrüche, welche mittels NHEJ repariert werden (fehleranfällig)
-* Eingefügte Indels führen zu Knock-Outs
-* TALE Sequenz muss so konzipiert werden, dass an gewünschter Stelle geschnitten wird
+* Protein, welches an gewünschter Stelle schneidet (Endonuclease)
+* Induziert Doppelstrangbrüche, welche mittels NHEJ repariert werden (fehleranfällig)
+* Eingefügte Indels (!= 3n Basen) führen zu Knock-Outs
+* TALE Sequenz muss so konzipiert werden, dass an gewünschter Stelle geschnitten wird &rarr; neue TALE Sequenz für jede Schnittstelle
 
 ## CRISPR-Cas9
 
 * gRNA definiert Ziel der Schnittstelle
-* induziiert Doppelstrangbrüche
+* induziert Doppelstrangbrüche
 * Reparatur mittels NHEJ
-* Bei insertions/deletions > 3 Basen &rarr; Knock-Out
+* Bei insertions/deletions != 3n Basen &rarr; Knock-Out
+
+* Off-Target Effekte &rarr; Cas9 schneidet an anderen Stellen
+  + Dauerhafter Einbau unter Umständen nicht wünschenswert
+  + Episom + CRISPR-Cas9 &rarr; zeitlich begrenztes wirken (keine dauerhafte Anwesenheit/Expression)
 
 ## Schwierigkeiten bei Diatomeen
 
@@ -897,7 +924,7 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
 
 * Lange Regenerationszeiten
 
-* Diplonten aber keine Kreuzung möglich bzw. sehr schwer
+* Diplonten aber keine Kreuzung möglich (Bedingungen unklar und Zuordung zu "Geschlecht" schwierig) bzw. sehr schwer
 
 * Bei Knock-Outs müssen beide Allele erfolgreich editiert werden, da Diatomeen diploid sind
   * Reparatur ist zu gewissem Grad zufällig: die Allele können unterschiedlich repariert werden
@@ -909,9 +936,9 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
   * Aufbau fördern
   * konkurierende Reaktionen stoppen
 
-* Diatomeen besitzen von natur aus viel ungesättigte Fette &rarr; wichtig für Ernährung
+* Diatomeen besitzen von Natur aus viel ungesättigte Fettsäuren &rarr; wichtig für Ernährung
 * Prüfung, ob Tgl1 Lipase ist
-  * in *E. coli* transferieren, aufreinigen und Enzymtest durchführen &rarr; test ob Substrat umgesetzt wird
+  * in *E. coli* transferieren, aufreinigen und Enzymtest durchführen &rarr; Test ob Substrat umgesetzt wird
 
 # 6. Besonderheiten der Diatomeen: Photorezeptoren/LHC
 
