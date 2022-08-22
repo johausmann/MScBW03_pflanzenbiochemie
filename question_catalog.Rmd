@@ -711,7 +711,7 @@ knitr::include_graphics("media/lecture4_sekundaere_endosymbiose.png")
 * Cytosol &rarr; eukaryotische Ribosomen
   + _In situ_ Hybridisierung mit gelabelter 18s-rRNA
 
-* Plastid &rarr; Auto-Fluoreszent der Phycobiline
+* Plastid &rarr; Auto-Fluoreszenz der Phycobiline
   + Rotalgen ähnliche
   + Bei Cyanobakterien würde es keine Lokalisation geben &rarr; über gesamte Zelle Signal
 
@@ -808,16 +808,20 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
   + Tyhlakoidtransferdomäne (Lumen oder T-Membranprotein) (S')
 
 
-* Grenze zwischen Signalpeptid und eigentlichem Protein nicht ganz klar
-
-* Nachweis mittels GFP in Protein
-  + Fluoreszenz an Bestimmungsort z.B PPC oder Chloroplast
-
 ```
 ----------------------------------
 |   S  |   T   |   S'   |    M   |
 ----------------------------------
 
+```
+
+* Grenze zwischen Signalpeptid und eigentlichem Protein nicht ganz klar
+
+* Nachweis mittels GFP in Protein
+  + Fluoreszenz an Bestimmungsort z.B PPC oder Chloroplast
+
+```{r, echo=FALSE, fig.align='center',fig.cap="Transport in komplexe Plastide"}
+knitr::include_graphics("media/lecture4_komplexer_plastid.png")
 ```
 
 * Äußere Membran mit ER des Wirts verbunden
@@ -971,8 +975,9 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
     + 3-4 Hüllmembranen mit CER und Verbindung zur Kern-ER &rarr; EM
     + Nukleomoprh &rarr; DAPI Färbung
     + Sequenzierung &rarr; Nachweis des zweigeteilten Chloroplasten Signalpeptid
-        + S + T (bekannt)
+        + S (bekannt) + T (geringer Consensus)
     + Thylakoidmorphologie &rarr; sekundäre Plastiden haben typische 3er Stapel
+    + GFP mit Signalpeptid ausstatten &rarr; Co-Lokalisation mit Autofluoreszenz der Chloroplasten
     
 
 2.  Welches Protein des PSII Komplexes muss ständig ersetzt werden, wo befindet es sich und welche Funktion bzw. Cofaktoren hat es? 
@@ -1025,11 +1030,78 @@ beeinflussen.
     + Speicherassimilat
         + Weit verbeitet &rarr; Stärke als Polysaccharid in Chloroplast
         + Diatomeen &rarr; Wasserlösliches Chrysolaminarin in Vakuole
+
 9. Was ist der Vorteil plastidärer Transformation gegenüber nucleärer Transformation?
 
-    + 
+    + Plastiden werden __maternal vererbt__ &rarr; kein Pollenflug und Gefahr bei GVO
+        + kein __vertikaler Gentransfer__
+    + homologe Rekombination als Hauptreperaturmechanismus
+        + einfaches Einbringen von plastidären Genen
     
+10. Was ist der Nachteil plastidärer Transformation gegenüber nucleärer Transformation?
+    + Gegenstrangkodierung und Operonstruktur können Probleme bereiten
+    + Verwilderung von Pflanzen
+    + Begrenzter Genpool für Ersetzung (~120)
+    + Langwieriger Prozess &rarr; homoplastische Zellen
     
+11. Beschreiben Sie in Stichworten den Weg zur Fertigstellung eines im Thylakoidlumen lokalisierten Proteins ohne Cofaktoren, welches nucleär codiert ist, beginnend mit dem Ort der Translation. 
     
+    + Ort der Translation &rarr; Cytosol 
+        + Protein am N-Temrinus mit Transitpeptid und Thylakoidtransferdomäne
+    + Transport zur Chloroplastenmembran mittels Chaperonen
+    + Transport über Membran (energieabhängig)
+        + TOC &rarr; in Membraninnenraum transloziert
+        + TIC &rarr; Transport in das Stroma
+    + Abspalten des Transitpeptids
+    + Transport zur Thylakoidmembran mittels Chaperonen
+    + Transport über Thylakoidmembran
+        + Ungefaltet = Sec-Komplex (energieabhängig)
+        + Gefaltet = TAT-Komplex (pH-Gradient abhängig)
+
+12. Worin unterscheiden sich die Chloroplasten von Rotalgen, Grünalgen und Braunalgen hinsichtlich ihrer Chloroplastenmorphologie?
+
+    + Rotalgen
+        + Einzelne Thylakoidmembranen (Bilayer)
+        + Phycobilisom auf PSII aufgesetzt
+        + 2 Hüllmembranen
+    + Grünalgen
+        + Stroma (einzel) und Granathylakoide (Stapel)
+        + 2 Hüllmembranen
+    + Braunalgen
+        + Thylakoid 3er Stapel mit Gürtellamelle am Rand
+        + 3-4 Hüllmembranen
     
+13. Welche Protein-Pigment-Komplexe der Thylakoidmembran sind im Pflanzenreich hochkonserviert, welche variabel?
+
+    + Grundsätzlich Aufbau der Thylakoidmembran mit PS, Cyt b~6~f und ATP-Synthase hoch konserviert
+    + PSI und PSII hoch konserviert
+        + PSI liegt bei Rotalgen und Cyanobakterien als Trimer vor, sonst Monomer
+    + Lichtsammelkomplexe und gebunden Pigmente/Carotinoide sind hoch variabel
+        + Rotalgen nutzen Phycobilisome (extrinsich)
+        + Grünalgen nutzen LHC unterschiedlicher Art (Trimer, Minore)
+        + Braunalgen nutzen FCP (Fucoxanthin)
+        
+14. Das Photosystem II höherer Pflanzen liegt in typischen Superkomplexen in den Granamembranen vor.
+
+a) Welche Proteine außer den Proteinen des PSII Cores sind darin in welchem Oligomerisierungszustand zu finden?
+
+    * Minore Lichtsammelantennen (CP24, CP26, CP29) &rarr; Monomere
+
+    * LHCII {S,M,L} als Trimer
+
+b) Welchen Oligomerisierungszustand weisen die Cores auf?
+
+    * Reaktives Zentrum aus D1 & D2 als Heterodimer
+
+    * CP43, CP47 als Monomere
+
+15. Welche Substanz im Chloroplasten dient hauptsächlich als Signal zur Detektion von „Licht“ und „Dunkel“ und in welchem Zustand?
+
+    + Thioredoxine regulieren viele Enzyme im Chloroplasten/Calvin-Zyklus
+    + Reduzierte Form = Aktive Form (Cystinbrücke aufgebrochen)
     
+16. Wie ist plastidäre DNA organisiert? Beschrieben Sie in Stichworten 3 typische Merkmale.
+    + Organisation in Operons
+    + Gegenstrangkodierung
+    + Aufteilung in LSC und SSC. Inverted Repeats trennen SSC von LSC
+
