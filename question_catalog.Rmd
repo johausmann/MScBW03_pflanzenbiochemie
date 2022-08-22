@@ -2,7 +2,7 @@
 title: "MScBW03 Pflanzenbiochemie"
 author: "Johannes Hausmann, Luis Kress"
 date: "`r Sys.Date()`"
-#yknit: pagedown::chrome_print
+#knit: pagedown::chrome_print
 links-to-footnotes: true
 output:
   html_document:
