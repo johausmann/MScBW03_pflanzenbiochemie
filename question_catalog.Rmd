@@ -2,7 +2,7 @@
 title: "MScBW03 Pflanzenbiochemie"
 author: "Johannes Hausmann, Luis Kress"
 date: "`r Sys.Date()`"
-#knit: pagedown::chrome_print
+#yknit: pagedown::chrome_print
 links-to-footnotes: true
 output:
   html_document:
@@ -767,7 +767,7 @@ knitr::include_graphics("media/lecture4_sekundaere_endosymbiose.png")
 ## Unterschiede in Anordnung der PS
 
 
-* Cyanobakterien
+* Cyanobakterien, Rhodophyta
   + PSI = Trimer
   + PSII = Dimer
   + extrinsischer Antennenkomplex
@@ -866,7 +866,7 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
       + Export Chloroplast &rarr; Import Chloroplast 
 
 * Glykolyse
-  * Teilweise in Plastiden (bei höheren Pflanzen kommt dies nur in den Wurzeln vor)
+  * Teilweise in Plastiden bis  (bei höheren Pflanzen kommt dies nur in den Wurzeln vor)
   * Problem: stört den Calvin Zyklus da 2PGA ein Intermediat des Calvinzyklus ist   
   &rarr; Regulation benötigt
   
@@ -959,3 +959,73 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
 |Rieske | Lumen | Kern | Tat |
 |ATPsynthase-II | Thylakoidmembran | Kern | spontan |
 
+
+# 8. Fragenkatalog
+
+1. Sie entdecken einen unbekannten, einzelligen, photosynthetischen Organismus. Ihr Vergleich genomischer Sequenzen gibt Ihnen keine Verwandtschaft zu irgendeiner existierenden Algengruppe. Wie können Sie dennoch nachweisen, dass dieser Organismus  Chloroplasten besitzt, die aus einer sekundären Endosymbiose hervorgegangen sind? Bitte schreiben Sie in Stichworten Eigenschaften, die für sekundäre  Plastiden sprechen und eine  dafür geeignete Nachweismethode.
+
+    + 3-4 Hüllmembranen mit CER und Verbindung zur Kern-ER &rarr; EM
+    + Nukleomoprh &rarr; DAPI Färbung
+    + Sequenzierung &rarr; Nachweis des zweigeteilten Chloroplasten Signalpeptid
+        + S + T (bekannt)
+    + Thylakoidmorphologie &rarr; sekundäre Plastiden haben typische 3er Stapel
+    
+
+2.  Welches Protein des PSII Komplexes muss ständig ersetzt werden, wo befindet es sich und welche Funktion bzw. Cofaktoren hat es? 
+    + D1 des reaktiven Zentrums muss ständig ersetzt werden (30 min)
+    + Teil des membranständigen Teils
+    + Co-faktoren der Elektronentransportkette
+        + P680 (Chlorophyll a), Lutein, $\beta$-Carotinoid
+
+3. Das Photosystem II höherer Pflanzen liegt in typischen Superkomplexen in den  Granamembranen vor. Welche Proteine außer den Proteinen des PSII Cores sind darin in welchem Oligomerisierungszustand zu finden?
+
+    + LHCII Komplexe &rarr; Timere
+    + Minore LHCs (CP24, CP29, CP26) &rarr; Monomere
+    + psbS &rarr; Dimer
+
+4. Nennen Sie zwei der Faktoren, die die Synthese des Apoproteins des LHC 
+beeinflussen.
+    + PGE &rarr; GUN1 als Signalpeptid &rarr; aktiviert PTM Signalkaskade &rarr; Abi4 reguliert PHANG Expression
+    + Chlorophyll-Synthese &rarr; Mg-Proto IX / Gun5 (Vorstufe) &rarr; verlässt Zellkern & reguliert mit Hsp90 &rarr; Hy5 reguliert PHANG Expression
+    + Phytochrom &rarr; hellrotes Licht = aktive Form &rarr; Kernimport & Bindung von TF &rarr; Regulation von PHANG Expression
+    
+5. Welches Chlorophyll und welcher hauptsächliche Carotinoid dient bei Grünalgen, welches bei Diatomeen als akzessorisches Pigment? 
+    + Alle besitzen Chlorophyll a
+    + Grünalgen &rarr; Chlorophyll b & Lutein
+    + Diatomeen &rarr; Chlorophyll c & Fucoxanthin
+
+6. Nennen Sie drei Faktoren, die bei dem unter hohen Lichtintensitäten auftretenden non-photochemical quenching essentiell sind bzw. dazu beitragen. 
+
+    + CP29-CP24-LHCII Superkomplexe
+    + Aggregation von LHCII &rarr; Quenching über Lutein
+    + Steigender Zeaxanthin und fallender Violaxanthin Gehalt
+    + psbS
+        + Modell 1 (Protonierung führt zu Konformationsänderung &rarr; Dissoziation von LHCII von PSII)
+        + Modell 2 (LHCII + psbS (+ Zeaxanthin) Komplex quencht)
+
+7. Warum ist die Nitratreduktion in den Chloroplasten extrem gut reguliert?
+
+    + Pflanze nimmt Nitrat in höchst-oxidierter Form auf
+        + Schrittweise Reduktion um Ammonium (NH~4~) zu erhalten
+    + Nitrit ist starkes Oxidationsmittel
+        + Ablauf nur wenn AS synthetisiert oder in Vakuole gespeichert
+    + Ammonium auch toxisch &rarr; zerstört pH-Gradient
+        + Muss sofort in AS Synthese verwendet werden
+    + Zusätzlich Regulation mit CO~2~ und SO~4~ Assimilation
+
+8. Nennen Sie zwei Stoffwechselwege, die oder deren Teile in Diatomeen eine ungewöhnliche Lokalisation innerhalb der Zelle aufweisen und nennen Sie die weit verbreitete Lokalisation sowie die Lokalisation in Diatomeen.
+
+    + Photosynthese (Calvin Zyklus und oxidativer Pentosephosphatweg)
+        + Weit verbreitet &rarr; Beides im Chloroplasten
+        + Diatomeen &rarr; ox. Pentosephosphatweg im Cytosol
+    + Speicherassimilat
+        + Weit verbeitet &rarr; Stärke als Polysaccharid in Chloroplast
+        + Diatomeen &rarr; Wasserlösliches Chrysolaminarin in Vakuole
+9. Was ist der Vorteil plastidärer Transformation gegenüber nucleärer Transformation?
+
+    + 
+    
+    
+    
+    
+    
