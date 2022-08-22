@@ -750,6 +750,10 @@ knitr::include_graphics("media/lecture4_sekundaere_endosymbiose.png")
 * Grundsätzlich Aufbau der Thylakoidmembran mit PS, Cyt b~6~f und ATP-Synthase gleich
   + Cyanobakterien + Eukaryoten
   
+```{r, echo=FALSE, fig.align='center',fig.cap="Allgemeiner Aufbau Thylakoidmembran"}
+knitr::include_graphics("media/lecture4_allg_aufbau_thylakoid_membran.png")
+```
+  
 * Variabilität in den Lichtsammelkomplexen
 
 * Cyanophyta und Rhodophyta
@@ -861,7 +865,7 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
   
 * Speicherassimilate
   * Diatomeen verwenden Chrysolaminarin (Polysaccharid) statt Stärke wie höhere Pflanzen
-  * Chrysolaminin wasserlöslich &rarr; in Vakuole gespeichert anstatt im Chloroplasten
+  * Chrysolaminarin wasserlöslich &rarr; in Vakuole gespeichert anstatt im Chloroplasten
   * An Tonoplast (Membran der Vakuole) synthetisiert
       + Export Chloroplast &rarr; Import Chloroplast 
 
@@ -871,6 +875,11 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
   &rarr; Regulation benötigt
   
 ## Molecular Tools für Diatomeen
+
+### Ziele:
+* einbringen zusätzlicher Gene
+* Knock-Down mittels Antisense RNA
+* Knock-Out via TALEN oder CRISPER-Cas9
 
 ### Biolistisch (Gen-Gun)
 * Starke Selektion, da nur wenige Zellen überleben
@@ -894,11 +903,6 @@ __&rarr; zusätzliche Signalpeptide um Transport über Hüllmembranen zu gewähr
 
 * Selektionsdruck &rarr; transiente Transformation bzw. zeitlich begrenztes wirken
   + mit Wegfall des Selektionsdrucks &rarr; Verlust des Episomen und der eingebrachten Gene
-
-* Ziele:
-  * einbringen zusätzlicher Gene
-  * Knock-Down mittels Antisense RNA
-  * Knock-Out via TALEN oder CRISPER-Cas9
   
 ## Knock-Out via TALEN (transkription activator-like effetor nucleases)
 
